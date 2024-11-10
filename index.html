@@ -1,30 +1,94 @@
-<html>
-    <html lang="en"></html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejumina</title>
+    <title>Ejumina - Experiencias en Paraguay</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
 
-    </header>
-        <h1>Ejumina</h1>
-        <nav>
+<header>
+    <nav class="navbar">
+        <div class="logo">Ejumina</div>
+        <ul>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Experiencias</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <button class="plan-button">Planificar Viaje</button>
+    </nav>
+    <div class="nav">
+       
+        <div class="hero-section">
+            
+            <h1 class="primero">Descubrí lo mejor de Paraguay:</h1>
+            <h1> Cultura, Gastronomía y Aventura a tu Alcance</h1>
+            <p>Explora, planifica y vive experiencias únicas.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="¿Dónde vamos?">
+                <input type="text" placeholder="Fecha">
+                <button>Buscar</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="recommended-destinations">
+        <h2>Destinos recomendados</h2>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="./assets/asuncion.png" alt="Asunción">
+                <h3>Asunción</h3>
+                <p>Explora, planifica y vive experiencias únicas.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/bogado.png" alt="El Bogado">
+                <h3>El Bogado</h3>
+                <p>Explora, planifica y vive experiencias únicas.</p>
+            </div>
+            <div class="card">
+                <img src="./assets/river.png" alt="Costanera">
+                <h3>Costanera</h3>
+                <p>Explora, planifica y vive experiencias únicas.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">Ejumina</div>
+        <div class="footer-section">
+            <h3>Quienes somos</h3>
             <ul>
-                <li><a href="#">Destinos</a></li>
-                <li><a href="#">Experiencias</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Contacto</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Privacidad</a></li>
             </ul>
-            <button name="planificar">Planificar Viaje</button>
-            <div class="encabezado">
-                <img class="usuario" src="./assets/Image.png" alt="Imagen de usuario">
-            </div>
-        </nav>
-    </header>
-    
+        </div>
+        <div class="footer-section">
+            <h3>Sobre turismo</h3>
+            <ul>
+                <li><a href="#">Hoteles</a></li>
+                <li><a href="#">Hospedaje temporal</a></li>
+                <li><a href="#">Gastronomía</a></li>
+                <li><a href="#">Experiencias</a></li>
+                <li><a href="#">Agencias de viaje</a></li>
+                <li><a href="#">Pasajes</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contacto</h3>
+            <p>Comunicate con nosotros</p>
+        </div>
+    </div>
+</footer>
+
+</body>
 </html>
